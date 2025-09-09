@@ -6,17 +6,15 @@ A Python script that downloads images from the web and saves them into a folder.
 - Prompts the user for one or more image URLs
 - Creates a "Fetched_Images" directory if it doesn’t exist
 - Downloads images and saves them with proper filenames
-- Handles errors and skips non-image files or very large files
-- Prevents duplicate downloads
 
 ## How to Run
 1. Install Python 3 and the requests library:  
    pip install requests
 2. Run the script:  
    python fetch_images.py
-3. Enter one or more image URLs separated by spaces.
-
+   
 ## Output
 Downloaded images will appear in the "Fetched_Images" folder.
+
 
 
